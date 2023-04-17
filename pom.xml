@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example.LLD</groupId>
-	<artifactId>snakeAndLadder</artifactId>
+	<artifactId>parkingLot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>snakeAndLadder</name>
-	<description>Snake and Ladder for LLD</description>
+	<name>parkingLot</name>
+	<description>Parking Lot for LLD</description>
 	<properties>
 		<java.version>11</java.version>
 		<swagger.version>2.9.2</swagger.version>
