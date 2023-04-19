@@ -1,19 +1,16 @@
 package com.example.LLD.entity.account.common;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Component;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Contact {
-    private final String phone;
-
-    private final String email;
-    public Contact(String phone, String email) {
-        this.phone = phone;
-        this.email = email;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public String getEmail() {
-        return email;
-    }
+    private String phone;
+    private String email;
 }

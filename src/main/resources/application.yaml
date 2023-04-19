@@ -1,7 +1,7 @@
 server:
-  port: 8020
+  port: 8021
   servlet:
-    context-path: '/LLD/snakeAndLadder'
+    context-path: '/LLD/parkingLot'
 security:
   ignored: /**
 management:
@@ -14,8 +14,8 @@ management:
       enabled: true
 info:
   application:
-    name: Snake and Ladder Application
-    description: An Application for Snake and Ladder Game
+    name: Parking Lot Application
+    description: An Application for Parking Lot
     author: Akash Singh
     version: '@project.version@'
 spring:

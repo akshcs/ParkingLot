@@ -2,13 +2,11 @@ package com.example.LLD.entity.vehicle.impl;
 
 import com.example.LLD.entity.parking.enums.ParkingSlotType;
 import com.example.LLD.entity.vehicle.enums.VehicleType;
+import lombok.Data;
 
-public class Car extends AbstractVehicle {
+@Data
+public class Car extends Vehicle {
     public Car(long licenceNumber) {
-        super(licenceNumber, VehicleType.CAR);
-    }
-    @Override
-    public ParkingSlotType getParkingSlotType() {
-        return ParkingSlotType.COMPACT_SLOT;
+        super(licenceNumber, VehicleType.CAR, ParkingSlotType.COMPACT_SLOT);
     }
 }
